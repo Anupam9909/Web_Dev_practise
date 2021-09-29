@@ -27,21 +27,17 @@ console.log("Trying to open the pepcoding website in chrome");
 cp.execSync("start chrome https:\\www.pepcoding.com");
 cp.execSync("start chrome https:\\www.google.com");
 cp.execSync("start chrome https:\\www.github.com");
+cp.execSync("start chrome http:\\github.com/Anupam9909");
 
 
 // 4th work
-// WE CAN RUN ANY FILE (CPP, JAVA, JS etc) WITH   cp.execSync() function
+// // WE CAN RUN ANY FILE (CPP, JAVA, JS etc) WITH   cp.execSync() function
 
 let ans = cp.execSync("node abc.js");
 // ans me jo bhi output ayega vo -> binary buffer ki form me ayega
 
 // console.log("output" , ans); // so, if we print like this then it would print the ans in binary form (not understandable data); 
 console.log(ans + "");   // ans output ko string me concatenate kar lo and print it(now it works)
-
-
-
-
-
 
 
 
